@@ -76,7 +76,7 @@
     </div>
 
     <!--BLOGS-->
-    <div class="container-fluid" id="blog" style="padding-top: 20px;">
+    <div class="container-fluid" id="blog" style="padding-top: 60px;">
         <div class="row">
             <div class="col col-lg-3 d-none d-lg-block">
                 <section style="position: sticky; width: 100%; height: 250px; top: 80px;">
@@ -483,6 +483,7 @@
                     clearInterval(timerInterval);
                 }
             }).then((result) => {
+                document.getElementById('blog').scrollIntoView();
                 document.getElementById('allButton').style.backgroundColor = '#51e2ff'
                 document.getElementById('historyButton').style.backgroundColor = 'transparent'
                 document.getElementById('environmentButton').style.backgroundColor = 'transparent'
@@ -519,6 +520,7 @@
                     clearInterval(timerInterval);
                 }
             }).then((result) => {
+                document.getElementById('blog').scrollIntoView();
                 document.getElementById('allButton').style.backgroundColor = 'transparent'
                 document.getElementById('historyButton').style.backgroundColor = '#51e2ff'
                 document.getElementById('environmentButton').style.backgroundColor = 'transparent'
@@ -555,6 +557,7 @@
                     clearInterval(timerInterval);
                 }
             }).then((result) => {
+                document.getElementById('blog').scrollIntoView();
                 document.getElementById('allButton').style.backgroundColor = 'transparent'
                 document.getElementById('historyButton').style.backgroundColor = 'transparent'
                 document.getElementById('environmentButton').style.backgroundColor = '#51e2ff'
@@ -591,6 +594,7 @@
                     clearInterval(timerInterval);
                 }
             }).then((result) => {
+                document.getElementById('blog').scrollIntoView();
                 document.getElementById('allButton').style.backgroundColor = 'transparent'
                 document.getElementById('historyButton').style.backgroundColor = 'transparent'
                 document.getElementById('environmentButton').style.backgroundColor = 'transparent'
